@@ -16,9 +16,10 @@ public class US01_GetRequestStepDefinition {
 
     }
     @Then("Http status code should be {int}")
-    public void http_status_code_should_be(Integer Statuscode) {
+    public void http_status_code_should_be(Integer statusCode) {
     response.then().
             assertThat().
-            statusCode(Statuscode);
+            statusCode(statusCode);
+
 }
 }

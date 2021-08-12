@@ -10,6 +10,6 @@ Feature: Get Requests
     Then Http status code should be 200
 
 
-    Scenario:TC-03 GetPopular request
-      Given I send a get request "getPopular_endpoint"
-      Then Http status code should be 200
+  Scenario:TC-03 GetPopular request
+    Given I send a get request "get_tv_endpoint"
+    Then Http status code should be 200
